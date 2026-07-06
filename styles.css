@@ -1,0 +1,27 @@
+body {
+    background-color: #f4f6f9; 
+    font-family: 'Arial';
+}
+
+.dashboard-header {
+    background-color: #3f189c;
+    color: white;
+    padding: 2rem 0;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+canvas {
+    max-height: 300px;
+}
